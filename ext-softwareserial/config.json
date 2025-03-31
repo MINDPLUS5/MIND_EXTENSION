@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "Software Serial",
+		"en": "Software Serial"
+	},
+	"description": {
+		"zh-cn": "Software Serial for Arduino",
+		"en": "Software Serial for Arduino"
+	},
+	"author": "Deysy",
+	"email": "MindPlus@dfrobot.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "softwareserial",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.3",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.3",
+			"board": ["arduino"],
+			"main": "main.ts"
+		}
+	}
+}

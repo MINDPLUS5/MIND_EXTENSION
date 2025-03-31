@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "Variable Char",
+		"en": "Variable Char"
+	},
+	"description": {
+		"zh-cn": "Variable Char",
+		"en": "Variable type Char"
+	},
+	"author": "Deysy",
+	"email": "MindPlus@dfrobot.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "variablechar",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["arduino"],
+			"main": "main.ts"
+		}
+	}
+}
