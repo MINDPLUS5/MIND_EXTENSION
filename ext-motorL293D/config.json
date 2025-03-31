@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "Motor Shield L293D",
+		"en": "Motor Shield L293D"
+	},
+	"description": {
+		"zh-cn": "Motor Shield L293D para Arduino",
+		"en": "Motor Shield L293D for Arduino"
+	},
+	"author": "Deysy",
+	"email": "MindPlus@dfrobot.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "motorL293D",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.3",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.3",
+			"board": ["arduino"],
+			"main": "main.ts"
+		}
+	}
+}
